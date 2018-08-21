@@ -7,19 +7,10 @@ import 'bootstrap-vue/dist/bootstrap-vue.css'
 
 //Routes:
 
-Vue.use(VueRouter)
+//Vue.use(VueRouter)
 Vue.use(BootstrapVue);
 Vue.config.productionTip = false
 
-const home = { template: '<div> home </div>'}
-const routes = [
- 	{ path: '/', component: home}
- ]
-
-const router = new VueRouter({
-	routes
-})
-
 new Vue({
-  router
+	render: h => h(App)
 }).$mount('#app')
