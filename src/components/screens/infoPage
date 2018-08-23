@@ -1,11 +1,9 @@
 <template>
 	<div class="infoPage">
-		<p> hola </p>
 	</div>
 </template>
 
 <script>
-	
 </script>
 
 <style>
