@@ -1,16 +1,16 @@
 <template>
   <div id="app">
-
-    <rating />
+  	<navBar />
   </div>
 </template>
 
 <script>
-import rating from './components/rating.vue'
+import navBar from './components/navBar.vue'
 export default {
   name: 'app',
   components: {
-    rating
+  	navBar
+
   }
 }
 </script>
