@@ -1,5 +1,6 @@
 <template>
-	<b-navbar toggleable="md" type="dark" variant="dark" sticky="true">
+  <div class="navBar">
+	<b-navbar toggleable="md" type="dark" variant="dark" sticky="true" class="navBar">
 
   <b-navbar-toggle target="nav_collapse"></b-navbar-toggle>
 
@@ -14,7 +15,7 @@
 
   </b-collapse>
 </b-navbar>
-
+</div>
 </template>
 
 <script>
@@ -23,4 +24,5 @@
 </script>
 
 <style>
+  
 </style>
