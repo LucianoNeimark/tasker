@@ -37,6 +37,6 @@
 	}
 
 	.infoPage{
-		background-color: orange;
+		background-color: #FAFAFA;
 	}
 </style>
