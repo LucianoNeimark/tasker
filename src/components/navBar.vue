@@ -1,6 +1,6 @@
 <template>
   <div class="navBar">
-	<b-navbar toggleable="md" type="dark" variant="warning" sticky="true">
+	<b-navbar toggleable="md" type="dark" variant="warning">
 
   <b-navbar-toggle target="nav_collapse"></b-navbar-toggle>
 
@@ -30,7 +30,7 @@
 </template>
 
 <script>
-	 export default {
+	export default {
   name: 'navBar', // nombre del componente
   data () {
     return {
