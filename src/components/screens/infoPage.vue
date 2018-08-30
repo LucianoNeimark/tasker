@@ -13,6 +13,13 @@
 				<b-col> <img src="http://www2.pictures.zimbio.com/mp/yLDsty1F6N2x.jpg" width="500em"/> </b-col>
 			</b-row>
 		</b-container>
+
+		<!-- Ultimo Boton de registrarse -->
+
+		<div class="regiBut">
+			<button>Registrarse</button>
+		</div>
+
 	</div>
 </template>
 
@@ -42,5 +49,9 @@
 	}
 	.para{
 		border-style: groove;
+	}
+	.regiBut{
+		text-align: center;
+		padding: 5em;
 	}
 </style>
